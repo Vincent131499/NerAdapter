@@ -3,16 +3,6 @@
 # encoding: utf-8
 
 """
-@author: dong.lu
-
-@contact: ludong@cetccity.com
-
-@software: PyCharm
-
-@file: utils_.py
-
-@time: 2019/04/9 10:30
-
 @desc: 处理句子
 """
 
