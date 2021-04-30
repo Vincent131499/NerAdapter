@@ -7,7 +7,7 @@
 3）bert+bilstm+crf【已集成】；<br>
 4）bert+mrc机制；<br>
 
-[知乎入口]()
+[知乎入口](https://zhuanlan.zhihu.com/p/369023250)
 
 [github入口](https://github.com/Vincent131499/NerAdapter)
 
