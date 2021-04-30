@@ -217,7 +217,8 @@ $ python infer_online.py
 
 ![bert_bilstm_crf模型图](https://z3.ax1x.com/2021/04/30/gAa9aD.jpg)
 
-后面的训练到部署事宜与2.1节一致，请自行查看。
+此处训练/预测使用‘run_ner_bert_lstm_crf.py’文件。<br>
+后面的训练到部署事宜与2.1节一致，请自行查看。<br>
 
 在使用这个方案时，若你想切换bert_bilstm_crf和bert_crf两种模型，可在‘bert_blstm_crf/models.py’文件中设置：
 
