@@ -9,7 +9,7 @@
 
 [知乎入口]()
 
-[github入口]()
+[github入口](https://github.com/Vincent131499/NerAdapter)
 
 ## 1.项目构成
 
@@ -237,13 +237,6 @@ rst = blstm_crf.add_blstm_crf_layer(crf_only=True)
 - [ ] [MRC-MER](https://arxiv.org/pdf/1910.11476.pdf)
 - [ ] [FLAT-NER](https://www.aclweb.org/anthology/2020.acl-main.611.pdf)
 
-## 4.订婚那点事
-
-2020.6毕业后就职于一家法律AI公司的算法职位，前段时间陪媳妇去见了她父母，当时临近她家那一刻的心情怎是一个忐忑了得。很幸运事情都很顺利，今年5.1订婚。
-
-和媳妇的遇见也应了那句话**“不要刻意去遇见谁”**，很幸运相识相知走到了现在（没有撒狗粮啊哈哈）。
-
-对于AI的热爱、对于技术的坚持让我走到了现在，接下来我还将继续走下去，拓展自己的知识面，和大家一起加深全链路（硬件-AI-软件）学习。
 
 **最后祝大家5.1快乐！**
 
