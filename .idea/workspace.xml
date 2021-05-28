@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bb09899-b1cc-44ab-8e8d-444f8f5a15ec" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/NerAdapter$run.coverage" NAME="run Coverage Results" MODIFIED="1619422362227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NER-BERT-BiLSTM-CRF" />
+    <SUITE FILE_PATH="coverage/NerAdapter$evaluate__1_.coverage" NAME="evaluate (1) Coverage Results" MODIFIED="1619659336303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_blstm_crf" />
+    <SUITE FILE_PATH="coverage/NerAdapter$infer.coverage" NAME="infer Coverage Results" MODIFIED="1619174429039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NerAdapter$infer_online.coverage" NAME="infer_online Coverage Results" MODIFIED="1619750109783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_ce" />
+    <SUITE FILE_PATH="coverage/NerAdapter$.coverage" NAME="将行形式数据集转换成列形式数据集 Coverage Results" MODIFIED="1619745374969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_helper" />
+    <SUITE FILE_PATH="coverage/NerAdapter$infer_offline.coverage" NAME="infer_offline Coverage Results" MODIFIED="1619749098454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_ce" />
+    <SUITE FILE_PATH="coverage/NerAdapter$run_ner.coverage" NAME="run_ner Coverage Results" MODIFIED="1619663685348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_ce" />
+    <SUITE FILE_PATH="coverage/NerAdapter$run_ner_bert_blstm_crf__1_.coverage" NAME="run_ner_bert_blstm_crf (1) Coverage Results" MODIFIED="1619506074151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_blstm_crf" />
+    <SUITE FILE_PATH="coverage/NerAdapter$run_ner_bert_ce.coverage" NAME="run_ner_bert_ce Coverage Results" MODIFIED="1619663538952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_ce" />
+    <SUITE FILE_PATH="coverage/NerAdapter$Doctests_in_ner_metrics.coverage" NAME="Doctests in ner_metrics Coverage Results" MODIFIED="1619593731073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/metrics" />
+    <SUITE FILE_PATH="coverage/NerAdapter$infer_offline__1_.coverage" NAME="infer_offline (1) Coverage Results" MODIFIED="1619668415051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert-chinese-ner-master" />
+    <SUITE FILE_PATH="coverage/NerAdapter$ner_me1.coverage" NAME="ner-me1 Coverage Results" MODIFIED="1619597991533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/metrics" />
+    <SUITE FILE_PATH="coverage/NerAdapter$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1619659270555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_ce" />
+    <SUITE FILE_PATH="coverage/NerAdapter$infer_offline__2_.coverage" NAME="infer_offline (2) Coverage Results" MODIFIED="1619685872621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/NerAdapter$utils_.coverage" NAME="utils_ Coverage Results" MODIFIED="1619575919898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_blstm_crf" />
+    <SUITE FILE_PATH="coverage/NerAdapter$run_ner_bert_blstm_crf.coverage" NAME="run_ner_bert_blstm_crf Coverage Results" MODIFIED="1619418970003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_bilstm_crf" />
+    <SUITE FILE_PATH="coverage/NerAdapter$infer_online__1_.coverage" NAME="infer_online (1) Coverage Results" MODIFIED="1619686037504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="NerAdapter" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NerInfer</find>
+      <find>InputFeatures</find>
+      <find>100</find>
+      <find>label</find>
+      <find>int</find>
+      <find>int32</find>
+      <find>海</find>
+      <find>赛</find>
+      <find>int64</find>
+      <find>scaffold_fn</find>
+      <find>is_real_example</find>
+      <find>device</find>
+      <find>map</find>
+      <find>torch</find>
+      <find>id2</find>
+      <find>session</find>
+      <find>id2label</find>
+      <find>model_fn_builder</find>
+      <find>tf_record</find>
+      <find>file_based_input_fn_builder</find>
+      <find>f1</find>
+      <find>filed_based_convert_examples_to_features</find>
+      <find>num_labels</find>
+      <find>num_train_steps</find>
+      <find>trans</find>
+      <find>focal_loss</find>
+      <find>label_ids</find>
+      <find>tf.logging</find>
+      <find>utils_</find>
+      <find>output</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\exported_model</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NER-BERT-BiLSTM-CRF/data/构建数据集.py" />
+        <option value="$PROJECT_DIR$/NER-BERT-BiLSTM-CRF/models/base_config.py" />
+        <option value="$PROJECT_DIR$/NER-BERT-BiLSTM-CRF/run.py" />
+        <option value="$PROJECT_DIR$/NER-BERT-BiLSTM-CRF/models/BERT_BiLSTM_CRF.py" />
+        <option value="$PROJECT_DIR$/NER-TF/run_train.sh" />
+        <option value="$PROJECT_DIR$/NER-BERT-BiLSTM-CRF/train_val_test.py" />
+        <option value="$PROJECT_DIR$/BERT-BiLSTM-CRF-NER/train/bert_lstm_ner.py" />
+        <option value="$PROJECT_DIR$/BERT-BiLSTM-CRF-NER/train/train.sh" />
+        <option value="$PROJECT_DIR$/BERT-BiLSTM-CRF-NER/train/models.py" />
+        <option value="$PROJECT_DIR$/BERT-BiLSTM-CRF-NER/run_ner.py" />
+        <option value="$PROJECT_DIR$/BERT-BiLSTM-CRF-NER/train_helper.py" />
+        <option value="$PROJECT_DIR$/BERT-BiLSTM-CRF-NER/bert_lstm_ner.py" />
+        <option value="$PROJECT_DIR$/BERT-BiLSTM-CRF-NER/bert_lstm_ner_2.py" />
+        <option value="$PROJECT_DIR$/BERT-BiLSTM-CRF-NER/models.py" />
+        <option value="$PROJECT_DIR$/BERT-BiLSTM-CRF-NER/run_ner_bert_blstm_crf.py" />
+        <option value="$PROJECT_DIR$/bert_blstm_crf/infer_offline.py" />
+        <option value="$PROJECT_DIR$/bert_blstm_crf/start_tfs_single_model.sh" />
+        <option value="$PROJECT_DIR$/data_helper/将列形式数据集转换成行形式数据集.py" />
+        <option value="$PROJECT_DIR$/../../TextClassifier_Transformer/run_classifier_serving.py" />
+        <option value="$PROJECT_DIR$/bert_blstm_crf/lstm_crf_layer.py" />
+        <option value="$PROJECT_DIR$/bert_blstm_crf/tf_metrics.py" />
+        <option value="$PROJECT_DIR$/bert_blstm_crf/utils_.py" />
+        <option value="$PROJECT_DIR$/bert4keras_bert_crf_ner.py" />
+        <option value="$PROJECT_DIR$/metrics/ner_metrics.py" />
+        <option value="$PROJECT_DIR$/metrics/ner-me1.py" />
+        <option value="$PROJECT_DIR$/bert_ce/utils_.py" />
+        <option value="$PROJECT_DIR$/NER-TF/models/bert_lstmcrf.py" />
+        <option value="$PROJECT_DIR$/NER-TF/models/tf_metrics.py" />
+        <option value="$PROJECT_DIR$/bert_ce/ner_metrics.py" />
+        <option value="$PROJECT_DIR$/bert_blstm_crf/run_ner_bert_blstm_crf.py" />
+        <option value="$PROJECT_DIR$/bert_blstm_crf/evaluate.py" />
+        <option value="$PROJECT_DIR$/bert_ce/evaluate.py" />
+        <option value="$PROJECT_DIR$/bert_ce/tf_metrics.py" />
+        <option value="$PROJECT_DIR$/bert-chinese-ner-master/infer_offline.py" />
+        <option value="$PROJECT_DIR$/bert-chinese-ner-master/BERT_NER_New.py" />
+        <option value="$PROJECT_DIR$/bert_ce/infer_offline.py" />
+        <option value="$PROJECT_DIR$/bert_blstm_crf/models.py" />
+        <option value="$PROJECT_DIR$/bert_ce/infer_online.py" />
+        <option value="$PROJECT_DIR$/bert_blstm_crf/infer_online.py" />
+        <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/bert_blstm_crf/run_ner_new.py" />
+        <option value="$PROJECT_DIR$/train/models.py" />
+        <option value="$PROJECT_DIR$/train/bert_lstm_ner.py" />
+        <option value="$PROJECT_DIR$/train/infer_offline.py" />
+        <option value="$PROJECT_DIR$/bert_blstm_crf/bert_lstm_ner.py" />
+        <option value="$PROJECT_DIR$/bert_ce/run_ner_bert_ce.py" />
+        <option value="$PROJECT_DIR$/bert_ce/run_ner.py" />
+        <option value="$PROJECT_DIR$/data_helper/将行形式数据集转换成列形式数据集.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/bert_blstm_crf/run_ner_bert_lstm_crf.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1056" />
+    <option name="height" value="815" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NerAdapter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NerAdapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NerAdapter_dev" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\data_helper" />
+      <recent name="E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\BERT-BiLSTM-CRF-NER" />
+      <recent name="E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\BERT-BiLSTM-CRF-NER\bert" />
+      <recent name="E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\bert_ce" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter" />
+      <recent name="E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\data_helper" />
+      <recent name="E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\bert_ce" />
+      <recent name="E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\train" />
+      <recent name="E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\bert_blstm_crf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.infer_online">
+    <configuration name="将行形式数据集转换成列形式数据集" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_helper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NerAdapter" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_helper/将行形式数据集转换成列形式数据集.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="infer_offline (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NerAdapter" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train/infer_offline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="infer_offline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bert_ce" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NerAdapter" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bert_ce/infer_offline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="infer_online (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NerAdapter" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train/infer_online.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="infer_online" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bert_ce" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NerAdapter" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bert_ce/infer_online.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.infer_offline" />
+      <item index="1" class="java.lang.String" itemvalue="Python.infer_online" />
+      <item index="2" class="java.lang.String" itemvalue="Python.infer_offline (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.infer_online (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.将行形式数据集转换成列形式数据集" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.infer_online" />
+        <item index="1" class="java.lang.String" itemvalue="Python.infer_offline" />
+        <item index="2" class="java.lang.String" itemvalue="Python.将行形式数据集转换成列形式数据集" />
+        <item index="3" class="java.lang.String" itemvalue="Python.infer_online (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.infer_offline (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bb09899-b1cc-44ab-8e8d-444f8f5a15ec" name="Default" comment="" />
+      <created>1619164238441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619164238441</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Doctests_in_ner_metrics - 2021.04.28 at 15h 08m 51s.xml">
+      <configuration name="Doctests in ner_metrics" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38320774" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35306782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="leetcode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24434876" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1936" sideWeight="0.49569893" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24106666" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46393973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496" sideWeight="0.5043011" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23035522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bert_blstm_crf/run_ner_bert_blstm_crf.py</url>
+          <line>744</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bert_blstm_crf/run_ner_bert_blstm_crf.py</url>
+          <line>713</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bert_blstm_crf/models.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="34" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bert_blstm_crf/evaluate.py" />
+    <entry file="file://$PROJECT_DIR$/NER-TF/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-914">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NER-TF/data/orig_data_train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NER-TF/run_train.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert_ce/evaluate.py" />
+    <entry file="file://$PROJECT_DIR$/NER-TF/train_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="203" column="67" lean-forward="true" selection-start-line="203" selection-start-column="67" selection-end-line="203" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+            <element signature="e#3811#7859#0" expanded="false" />
+            <element signature="e#12803#18643#0" expanded="false" />
+            <element signature="e#18674#24613#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert_ce/tf_metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="193" column="58" lean-forward="false" selection-start-line="193" selection-start-column="58" selection-end-line="193" selection-end-column="58" />
+          <folding>
+            <element signature="e#146#164#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert-chinese-ner-master/BERT_NER.py" />
+    <entry file="file://$PROJECT_DIR$/bert-chinese-ner-master/infer_offline.py" />
+    <entry file="file://$PROJECT_DIR$/bert-chinese-ner-master/tf_metrics.py" />
+    <entry file="file://$PROJECT_DIR$/bert-chinese-ner-master/BERT_NER_New.py" />
+    <entry file="file://$PROJECT_DIR$/bert_blstm_crf/run_ner_bert_blstm_crf.py" />
+    <entry file="file://$PROJECT_DIR$/bert_ce/information.yaml" />
+    <entry file="file://$PROJECT_DIR$/bert_blstm_crf/infer_online.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="383" column="34" lean-forward="true" selection-start-line="383" selection-start-column="34" selection-end-line="383" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NER-TF/models/bert_mrc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#23#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NER-TF/models/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-973">
+          <caret line="161" column="4" lean-forward="false" selection-start-line="161" selection-start-column="4" selection-end-line="161" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert_ce/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert4keras_bert_crf_ner.py" />
+    <entry file="file://$PROJECT_DIR$/BERT-BiLSTM-CRF-NER-master/bert_base/server/helper.py" />
+    <entry file="file://$PROJECT_DIR$/train/train_helper.py" />
+    <entry file="file://$PROJECT_DIR$/train/models.py" />
+    <entry file="file://$PROJECT_DIR$/train/lstm_crf_layer.py" />
+    <entry file="file://$PROJECT_DIR$/train/tf_metrics.py" />
+    <entry file="file://$PROJECT_DIR$/train/conlleval.py" />
+    <entry file="file://$PROJECT_DIR$/bert_blstm_crf/run_ner_new.py" />
+    <entry file="file://$PROJECT_DIR$/train/conlleval.pl" />
+    <entry file="file://$PROJECT_DIR$/train/bert_lstm_ner.py" />
+    <entry file="file://$PROJECT_DIR$/train/infer_offline.py" />
+    <entry file="file://$PROJECT_DIR$/train/infer_online.py" />
+    <entry file="file://$PROJECT_DIR$/bert_blstm_crf/imgs/predict_score.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BERT-BiLSTM-CRF-NER-master/bert_base/train/bert_lstm_ner.py" />
+    <entry file="file://$USER_HOME$/Desktop/bert-chinese-ner-master/data/dev.txt" />
+    <entry file="file://$USER_HOME$/Desktop/bert-chinese-ner-master/BERT_NER.py" />
+    <entry file="file://$PROJECT_DIR$/BERT-BiLSTM-CRF-NER-master/bert_base/bert/run_classifier.py" />
+    <entry file="file://$PROJECT_DIR$/bert_ce/run_ner_bert_ce.py" />
+    <entry file="file://$PROJECT_DIR$/bert_blstm_crf/infer_offline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="317" column="44" lean-forward="true" selection-start-line="317" selection-start-column="44" selection-end-line="317" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_helper/get_label_ids.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_helper/将列形式数据集转换成行形式数据集.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msra_data_lie/train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27883422">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_helper/将行形式数据集转换成列形式数据集.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#202#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/china-people-daily-data/train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/china-people-daily-data-lie/train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/china-people-daily-data-lie/dev.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msra_data/train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="119" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert_ce/run_ner_bert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="e#175#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert_blstm_crf/run_ner_bert_lstm_crf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert_ce/infer_offline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6194">
+          <caret line="326" column="47" lean-forward="false" selection-start-line="326" selection-start-column="47" selection-end-line="326" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert_ce/infer_online.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6840">
+          <caret line="372" column="0" lean-forward="false" selection-start-line="372" selection-start-column="0" selection-end-line="372" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert_blstm_crf/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="98" column="102" lean-forward="false" selection-start-line="98" selection-start-column="102" selection-end-line="98" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="323">
+            <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

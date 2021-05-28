@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Copy of project-level server 'RTX-Titan'">
+    <serverData>
+      <paths name="Copy of project-level server 'RTX-Titan'">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/stephen-lib/stephen的个人文件夹/my_code/NLP算法组件研发/序列标注/NerAdapter" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
