@@ -235,7 +235,7 @@ rst = blstm_crf.add_blstm_crf_layer(crf_only=True)
 
 模型如下：
 
-- [ ] [MRC-MER](https://arxiv.org/pdf/1910.11476.pdf)
+- [√] [MRC-MER](https://arxiv.org/pdf/1910.11476.pdf)
 - [ ] [FLAT-NER](https://www.aclweb.org/anthology/2020.acl-main.611.pdf)
 
 
