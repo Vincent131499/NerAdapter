@@ -5,7 +5,7 @@
 1）基于bert进行微调【已集成】；<br>
 2）bert+crf【已集成】；<br>
 3）bert+bilstm+crf【已集成】；<br>
-4）bert+mrc机制；<br>
+4）bert+mrc机制【已集成】；<br>
 
 [知乎入口](https://zhuanlan.zhihu.com/p/369023250)
 
