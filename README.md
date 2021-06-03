@@ -18,10 +18,13 @@
 - Python3.6
 - tensorflow-gpu==1.14.0
 - tensorflow-serving-api==1.14.0
+- transformers==2.10.0
+- pytorch==1.5.0
 
 为了增加独立性，方便复现，将每一个模型作为单独的模块进行维护。项目构成如下所示：
 
 - ---bert_ce：基于bert微调的方案
+
   - ---run_ner_bert_ce.py：ner训练的主程序入口；
   - ---modeling.py：引自bert源码；
   - ---optimization.py：引自bert源码；
@@ -35,6 +38,7 @@
   - ---start_tfs_single_model.sh：启动docker的tf-serving容易的命令；
 
 - ---bert_blstm_crf：bert+crf和bert+bilstm+crf两种方案
+
   - ---run_ner_bert_blstm_crf.py：ner训练的主程序入口；
   - ---modeling.py：引自bert源码；
   - ---optimization.py：引自bert源码；
@@ -229,17 +233,60 @@ $ python infer_online.py
 rst = blstm_crf.add_blstm_crf_layer(crf_only=True)
 ```
 
+### 2.3 bert_mrc
+
+**（1）模型架构**
+
+![bert_mrc模型架构](E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\bert_mrc\imgs\bert_mrc模型架构.jpg)
+
+基于BERT的MRC机制核心思想是对于要抽取的各类实体，构造关于该类实体的query，随后将该query与原文本拼接放入BERT转换成阅读理解问题（原文本对应阅读理解中的上下文Context），预测待抽取实体在Context中的位置（start_index和end_index）。可以看出转换成阅读理解任务后NER任务就变成了一个多标签二分类问题，若原始文本的序列长度为m，那么就是m个二分类问题。
+
+该方法具有两大优势：
+
+- 1）通过构造query引入了与实体类型相关的先验知识，通过注意力交互模块可以让模型学到与指定实体类型相关的信息特征进而促进实体信息的捕捉；
+- 2）更好的解决实体嵌套问题。该方法额外设计了一个loss：match loss，对于模型学习到的所有实体的start、end位置，构造首尾实体匹配任务，即判断某个start位置是否与某个end位置匹配为一个实体，是则预测为1，否则预测为0，相当于转换为一个二分类问题，正样本就是真实实体的匹配，负样本是非实体的位置匹配。
+
+**（2）如何运行？**
+
+步骤1：准备数据。
+
+step1.1：为每个实体类型构建query，具体配置见***data/queries/ccf_ner.json***；
+
+step1.2：将原生数据集转换成符合MRC格式的训练数据，运行***data/ccfner2mrc.py***即可;
+
+step1.3：预训练模型下载。该bert_mrc方法使用的是roberta_wwm_ext_base，可以在查看文件***prev_trained_model/chinese_roberta_wwm_ext__base_pytorch/download.txt***下载，将下载的完整模型文件置于***prev_trained_model/chinese_roberta_wwm_ext__base_pytorch***目录下；
+
+步骤2：模型训练。
+
+step2.1：参数设置。具体设置见***finetuning_argparse.py***，注意这里支持两种loss：ce_loss和dice_loss；
+
+step2.2：执行训练。
+
+```bash
+$ python train.py
+```
+
+模型将会被保存在***output/best_f1_checkpoint***。
+
+由于是mrc机制，且数据扩充很多，在训练时尽可能增大epoch次数。
+
+【注意：本方法提供了一个toy-model，供人家快速验证，只训练了7个epoch，可以去这里**"output/best_f1_checkpoint/download.txt"**下载】
+
+步骤3：推理预测。
+
+模型训练好之后，执行***bert_mrc/ccf_predict_offline.py***即可进行预测。示例如下：
+
+![predict_offline_demo](E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\bert_mrc\imgs\predict_offline_demo.jpg)
+
 ## 3.后续计划
 
 后续将继续集成NER相关的模型，一种是传统NER性能优化，一种是嵌套问题解决；
 
 模型如下：
 
-- [√] [MRC-MER](https://arxiv.org/pdf/1910.11476.pdf)
+- [x] [MRC-MER](https://arxiv.org/pdf/1910.11476.pdf)
+
 - [ ] [FLAT-NER](https://www.aclweb.org/anthology/2020.acl-main.611.pdf)
-
-
-**最后祝大家5.1快乐！**
 
 #### **[参考]**
 
