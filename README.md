@@ -237,7 +237,7 @@ rst = blstm_crf.add_blstm_crf_layer(crf_only=True)
 
 **（1）模型架构**
 
-![bert_mrc模型架构](E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\bert_mrc\imgs\bert_mrc模型架构.jpg)
+![bert_mrc模型架构](https://z3.ax1x.com/2021/06/03/21fDSg.jpg)
 
 基于BERT的MRC机制核心思想是对于要抽取的各类实体，构造关于该类实体的query，随后将该query与原文本拼接放入BERT转换成阅读理解问题（原文本对应阅读理解中的上下文Context），预测待抽取实体在Context中的位置（start_index和end_index）。可以看出转换成阅读理解任务后NER任务就变成了一个多标签二分类问题，若原始文本的序列长度为m，那么就是m个二分类问题。
 
@@ -276,7 +276,7 @@ $ python train.py
 
 模型训练好之后，执行***bert_mrc/ccf_predict_offline.py***即可进行预测。示例如下：
 
-![predict_offline_demo](E:\my_code\算法平台研发\NLP算法组件研发\序列标注\NerAdapter\bert_mrc\imgs\predict_offline_demo.jpg)
+![predict_offline_demo](https://z3.ax1x.com/2021/06/03/21frlQ.png)
 
 ## 3.后续计划
 
