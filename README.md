@@ -94,7 +94,10 @@
 
 ## 2.项目运行
 
-接下来将针对**bert_ce**和**bert_bilstm_crf**这两个模型来叙述从线下训练到线上部署的闭环流程。
+接下来将针对以下模型来叙述从线下训练到线上部署的闭环流程：
+**bert_ce**
+**bert_bilstm_crf**
+**bert_mrc**
 
 **【前置：预训练模型配置】**
 
@@ -270,7 +273,7 @@ $ python train.py
 
 由于是mrc机制，且数据扩充很多，在训练时尽可能增大epoch次数。
 
-【注意：本方法提供了一个toy-model，供人家快速验证，只训练了7个epoch，可以去这里**"output/best_f1_checkpoint/download.txt"**下载】
+【注意：本方法提供了一个toy-model，供读者快速验证，只训练了7个epoch，可以去这里**"output/best_f1_checkpoint/download.txt"**下载】
 
 步骤3：推理预测。
 
